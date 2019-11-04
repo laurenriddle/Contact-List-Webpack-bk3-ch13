@@ -1,5 +1,9 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import renderDOM from "./ContactList";
 
-document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
+// const message = "Your Webpack application is set up and ready to go. Please start writing code."
 
-console.log(message)
+// document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
+
+// console.log(message)
+
+renderDOM.renderContacts()

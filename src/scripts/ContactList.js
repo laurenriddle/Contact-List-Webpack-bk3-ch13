@@ -2,7 +2,7 @@ import APICalls from "./ContactCollection"
 import contactManager from "./ContactComponent"
 
 const renderDOM = {
-    renderContacts() {
+    renderAllContacts() {
         APICalls.getContacts()
         .then(response => {
         let htmlForAllContacts = ""
@@ -15,4 +15,5 @@ const renderDOM = {
     })
     }
 }
+
 export default renderDOM

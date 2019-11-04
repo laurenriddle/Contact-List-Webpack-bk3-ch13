@@ -2,13 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "name": "Lauren Riddle",
+      "name": "Jane Doe",
       "phone": "213-343-4343",
       "address": "123 street" 
     },
     {
       "id": 2,
-      "name": "Caleb Riddle",
+      "name": "John Doe",
       "phone": "343-878-4536",
       "address": "345 street" 
     }

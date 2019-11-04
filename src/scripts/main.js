@@ -1,4 +1,5 @@
 import renderDOM from "./ContactList";
+import form from "./ContactForm"
 
 // const message = "Your Webpack application is set up and ready to go. Please start writing code."
 
@@ -6,4 +7,5 @@ import renderDOM from "./ContactList";
 
 // console.log(message)
 
-renderDOM.renderContacts()
+renderDOM.renderAllContacts()
+form.buildAndAppendForm()

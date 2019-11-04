@@ -5,7 +5,7 @@ getContacts() {
 
 },
 saveSingleContact() {
-    return fetch("http://localhost:8088/posts", { 
+    return fetch("http://localhost:8088/posts", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

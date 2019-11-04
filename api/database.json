@@ -4,13 +4,19 @@
       "id": 1,
       "name": "Jane Doe",
       "phone": "213-343-4343",
-      "address": "123 street" 
+      "address": "123 street"
     },
     {
       "id": 2,
       "name": "John Doe",
       "phone": "343-878-4536",
-      "address": "345 street" 
+      "address": "345 street"
+    },
+    {
+      "name": "Lauren",
+      "phone": "7890987890",
+      "address": "123 street",
+      "id": 3
     }
   ]
 }

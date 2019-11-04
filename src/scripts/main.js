@@ -1,5 +1,5 @@
 import renderDOM from "./ContactList";
-import form from "./ContactForm"
+import formComponents from "./ContactForm"
 
 // const message = "Your Webpack application is set up and ready to go. Please start writing code."
 
@@ -8,4 +8,5 @@ import form from "./ContactForm"
 // console.log(message)
 
 renderDOM.renderAllContacts()
-form.buildAndAppendForm()
+formComponents.buildAndAppendForm()
+formComponents.attachEventListenerToSaveButton()

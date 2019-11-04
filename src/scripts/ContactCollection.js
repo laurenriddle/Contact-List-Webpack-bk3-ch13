@@ -4,7 +4,7 @@ getContacts() {
     .then(response => response.json())
 
 },
-saveSingleContact() {
+saveSingleContact(contact) {
     return fetch("http://localhost:8088/posts", {
     method: "POST",
     headers: {

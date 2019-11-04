@@ -2,23 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Jane Doe",
+      "phone": "213-343-4343",
+      "address": "123 street"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "John Doe",
+      "phone": "343-878-4536",
+      "address": "345 street"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Lauren",
+      "phone": "7890987890",
+      "address": "123 street",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
